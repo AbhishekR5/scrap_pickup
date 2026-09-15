@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="EcoScrap - Instant doorstep scrap pickup with accurate digital weighing, best transparent market rates, and instant UPI/cash payouts. Book online in 60 seconds!">
+  <meta name="theme-color" content="#0d9488">
+  <title>EcoScrap | Doorstep Scrap Pickup, Best Market Rates & Instant Cash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Global Announcement Bar -->
+  <div class="announcement-bar" role="region" aria-label="Announcement">
+    <div class="container announcement-content">
+      <span class="badge-pulse">⚡ LIVE</span>
+      <span class="announcement-text">Highest Scrap Rates This Week! Get up to ₹42/kg for Cardboard & ₹460/kg for Copper.</span>
+      <a href="#rates" class="announcement-link">View Live Rates &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Primary Header Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="EcoScrap Home">
+        <div class="logo-icon-wrap">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/>
+            <path d="M11 19h8.2a1.8 1.8 0 0 0 1.58-.9 1.79 1.79 0 0 0-.02-1.78L17.2 9.5"/>
+            <path d="m14 2-5 7h10l-5-7Z"/>
+            <circle cx="12" cy="15" r="2.5"/>
+          </svg>
+        </div>
+        <span class="brand-name">Eco<span class="highlight">Scrap</span></span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#rates" class="nav-link">Scrap Rates</a></li>
+          <li><a href="#categories" class="nav-link">What We Collect</a></li>
+          <li><a href="#business" class="nav-link">Business</a></li>
+          <li><a href="#sustainability" class="nav-link">Impact</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20want%20to%20book%20a%20scrap%20pickup" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-header" aria-label="Chat on WhatsApp">
+          <svg class="icon-wa" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          <span class="wa-text">WhatsApp</span>
+        </a>
+        <a href="#book" class="btn-primary btn-header-cta" id="header-book-btn">
+          <span>Book Pickup</span>
+          <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-toggle" id="menu-toggle" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Overlay & Menu -->
+    <div class="mobile-drawer-overlay" id="drawer-overlay" aria-hidden="true"></div>
+    <div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <div class="logo-icon-wrap">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/>
+              <path d="M11 19h8.2a1.8 1.8 0 0 0 1.58-.9 1.79 1.79 0 0 0-.02-1.78L17.2 9.5"/>
+              <path d="m14 2-5 7h10l-5-7Z"/>
+              <circle cx="12" cy="15" r="2.5"/>
+            </svg>
+          </div>
+          <span class="brand-name">Eco<span class="highlight">Scrap</span></span>
+        </div>
+        <button type="button" class="drawer-close-btn" id="drawer-close" aria-label="Close Navigation Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <nav class="drawer-nav">
+        <ul class="drawer-links">
+          <li><a href="#hero" class="drawer-link"><span class="drawer-icon">🏠</span> Home</a></li>
+          <li><a href="#how-it-works" class="drawer-link"><span class="drawer-icon">⚙️</span> How It Works</a></li>
+          <li><a href="#rates" class="drawer-link"><span class="drawer-icon">💰</span> Live Scrap Rates</a></li>
+          <li><a href="#categories" class="drawer-link"><span class="drawer-icon">📦</span> What We Collect</a></li>
+          <li><a href="#book" class="drawer-link highlight-link"><span class="drawer-icon">📅</span> Book a Pickup</a></li>
+          <li><a href="#business" class="drawer-link"><span class="drawer-icon">🏢</span> B2B / Commercial</a></li>
+          <li><a href="#sustainability" class="drawer-link"><span class="drawer-icon">🌱</span> Sustainability</a></li>
+          <li><a href="#faq" class="drawer-link"><span class="drawer-icon">❓</span> FAQs</a></li>
+        </ul>
+      </nav>
+
+      <div class="drawer-footer">
+        <a href="#book" class="btn-primary btn-block drawer-action-btn" id="drawer-book-cta">
+          <span>Book Free Pickup</span>
+          <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20want%20to%20book%20a%20scrap%20pickup" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-full">
+          <svg class="icon-wa" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          <span>Chat on WhatsApp: +91 98765 43210</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Hero Left Column (Content) -->
+        <div class="hero-content">
+          <div class="eyebrow-badge">
+            <span class="badge-dot"></span>
+            <span>INDIA'S #1 TRUSTED SCRAP PICKUP SERVICE</span>
+          </div>
+
+          <h1 class="hero-title">
+            Sell Your Scrap at <br class="desktop-break">
+            <span class="gradient-text">Top Market Rates</span> Right from Home
+          </h1>
+
+          <p class="hero-description">
+            Experience 100% transparent digital scale weighing, verified background-checked pickup executives, and instant cash/UPI transfer directly into your account within minutes.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#book" class="btn-primary btn-hero-primary" id="hero-book-now">
+              <span>Book Free Pickup</span>
+              <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#rates" class="btn-secondary btn-hero-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-btn"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              <span>Check Live Rates</span>
+            </a>
+          </div>
+
+          <!-- Hero Highlights / Key Points -->
+          <div class="hero-mini-stats">
+            <div class="mini-stat-item">
+              <span class="stat-num">₹0</span>
+              <span class="stat-lbl">Pickup Charges</span>
+            </div>
+            <div class="mini-stat-divider"></div>
+            <div class="mini-stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-lbl">Digital Accuracy</span>
+            </div>
+            <div class="mini-stat-divider"></div>
+            <div class="mini-stat-item">
+              <span class="stat-num">&lt; 60s</span>
+              <span class="stat-lbl">Instant Payout</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Interactive Card & Composition) -->
+        <div class="hero-visual">
+          <div class="visual-card-glass">
+            <div class="card-glow-bg"></div>
+            
+            <!-- Scale Card Header -->
+            <div class="scale-card-header">
+              <div class="scale-status-indicator">
+                <span class="status-pulse-green"></span>
+                <span>DIGITAL SCALE CONNECTED</span>
+              </div>
+              <span class="scale-id-badge">ISO 9001:2015</span>
+            </div>
+
+            <!-- Interactive Mini Live Estimator in Hero -->
+            <div class="hero-estimator-box">
+              <div class="estimator-header">
+                <h3>Quick Rate Estimator</h3>
+                <span class="est-tag">Real-Time</span>
+              </div>
+
+              <div class="estimator-inputs">
+                <div class="est-select-group">
+                  <label for="hero-scrap-select">Select Material:</label>
+                  <select id="hero-scrap-select" class="est-select">
+                    <option value="16" data-name="Old Newspaper (Raddi)">Old Newspaper — ₹16/kg</option>
+                    <option value="14" data-name="Cardboard (Gatta)">Cardboard — ₹14/kg</option>
+                    <option value="32" data-name="Iron & Steel">Iron / Steel Scrap — ₹32/kg</option>
+                    <option value="460" data-name="Copper Wire">Pure Copper — ₹460/kg</option>
+                    <option value="125" data-name="Aluminium">Aluminium Scrap — ₹125/kg</option>
+                    <option value="18" data-name="Mixed Plastic">Hard Plastics — ₹18/kg</option>
+                    <option value="45" data-name="E-Waste / CPU">Computer E-Waste — ₹45/kg</option>
+                  </select>
+                </div>
+
+                <div class="est-slider-group">
+                  <div class="slider-header-row">
+                    <label for="hero-weight-slider">Estimated Weight:</label>
+                    <span class="slider-value-display"><strong id="hero-weight-val">25</strong> kg</span>
+                  </div>
+                  <input type="range" id="hero-weight-slider" class="range-slider" min="5" max="250" value="25" step="5">
+                  <div class="range-ticks">
+                    <span>5 kg</span>
+                    <span>50 kg</span>
+                    <span>100 kg</span>
+                    <span>250 kg</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Estimated Payout Badge -->
+              <div class="estimator-payout-box">
+                <div class="payout-left">
+                  <span class="payout-label">Estimated Payout</span>
+                  <span class="payout-subtext">Direct to UPI / Cash</span>
+                </div>
+                <div class="payout-right">
+                  <span class="payout-currency">₹</span>
+                  <span class="payout-amount" id="hero-payout-amount">400</span>
+                </div>
+              </div>
+
+              <a href="#book" class="btn-primary btn-block btn-est-cta" id="hero-est-book-btn">
+                <span>Book Pickup for This Amount</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+
+            <!-- Live Verified Badge Inside Hero Composition -->
+            <div class="floating-verified-pill">
+              <div class="avatar-stack">
+                <span class="avatar av-1">👨‍💼</span>
+                <span class="avatar av-2">👩‍🦰</span>
+                <span class="avatar av-3">👨‍🏭</span>
+              </div>
+              <div class="verified-text">
+                <strong>4.9 / 5 Rating</strong>
+                <span>45,000+ happy pickups completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST BAR SECTION (Desktop: 4-col, Tablet: 2x2, Mobile: 2x2) -->
+    <section class="trust-bar-section" aria-label="Trust and Guarantees">
+      <div class="container">
+        <div class="trust-grid">
+          <!-- Trust Item 1 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h3 class="trust-title">Verified Crew</h3>
+              <p class="trust-desc">Police-verified staff in uniform with photo ID cards.</p>
+            </div>
+          </div>
+
+          <!-- Trust Item 2 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                <circle cx="12" cy="14" r="2"/>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h3 class="trust-title">Digital Scale Weighing</h3>
+              <p class="trust-desc">Certified digital scales calibrated weekly for zero error.</p>
+            </div>
+          </div>
+
+          <!-- Trust Item 3 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h3 class="trust-title">Top Market Rates</h3>
+              <p class="trust-desc">Daily updated wholesale rates with zero hidden deductions.</p>
+            </div>
+          </div>
+
+          <!-- Trust Item 4 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                <line x1="1" y1="10" x2="23" y2="10"/>
+                <path d="M6 15h2M12 15h6"/>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h3 class="trust-title">Instant UPI & Cash</h3>
+              <p class="trust-desc">Direct GPay, PhonePe, Paytm or cash payout before leaving.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WE COLLECT (SCRAP CATEGORY CARDS) -->
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">WHAT WE COLLECT</div>
+          <h2 class="section-title">We Buy All Kinds of <span class="gradient-text">Recyclable Scrap</span></h2>
+          <p class="section-subtitle">From old newspapers to heavy industrial machinery, we recycle responsibly and pay you top market value.</p>
+        </div>
+
+        <!-- Filter Chips for Categories -->
+        <div class="category-filters" role="tablist" aria-label="Scrap Categories">
+          <button type="button" class="filter-chip active" data-filter="all" role="tab" aria-selected="true">All Items</button>
+          <button type="button" class="filter-chip" data-filter="paper" role="tab" aria-selected="false">Paper & Cardboard</button>
+          <button type="button" class="filter-chip" data-filter="metal" role="tab" aria-selected="false">Metals & Iron</button>
+          <button type="button" class="filter-chip" data-filter="ewaste" role="tab" aria-selected="false">E-Waste & Appliances</button>
+          <button type="button" class="filter-chip" data-filter="plastic" role="tab" aria-selected="false">Plastics & Others</button>
+        </div>
+
+        <!-- Categories Responsive Grid (Desktop: 4 cols, Tablet: 2-3 cols, Mobile: 2 cols / 1 col) -->
+        <div class="categories-grid" id="categories-grid">
+          <!-- Card 1: Newspaper & Books -->
+          <div class="category-card" data-cat="paper">
+            <div class="category-badge">Popular</div>
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">📰</span>
+            </div>
+            <h3 class="cat-title">Paper & Books</h3>
+            <p class="cat-items">Newspapers, office paper, notebooks, textbooks, magazines & cartons.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹14 – ₹18 <small>/ kg</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Paper & Books">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 2: Cardboard & Packaging -->
+          <div class="category-card" data-cat="paper">
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">📦</span>
+            </div>
+            <h3 class="cat-title">Cardboard (Gatta)</h3>
+            <p class="cat-items">Corrugated shipping boxes, Amazon/Flipkart boxes, packaging cartons.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹12 – ₹15 <small>/ kg</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Cardboard (Gatta)">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 3: Iron & Steel -->
+          <div class="category-card" data-cat="metal">
+            <div class="category-badge hot">High Demand</div>
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">🔩</span>
+            </div>
+            <h3 class="cat-title">Iron & Steel</h3>
+            <p class="cat-items">Iron rods, grills, metal furniture, pipes, sheet metal, steel utensils.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹30 – ₹36 <small>/ kg</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Iron & Steel">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 4: Copper, Brass & Aluminium -->
+          <div class="category-card" data-cat="metal">
+            <div class="category-badge gold">Highest Value</div>
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">🪙</span>
+            </div>
+            <h3 class="cat-title">Copper & Brass</h3>
+            <p class="cat-items">Copper wires, AC copper pipes, brass taps, idols, utensils, alloy parts.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹320 – ₹480 <small>/ kg</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Copper & Brass">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 5: Plastics & Polymers -->
+          <div class="category-card" data-cat="plastic">
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">🧴</span>
+            </div>
+            <h3 class="cat-title">Plastics & Bottles</h3>
+            <p class="cat-items">Hard plastic buckets, chairs, water cans, PET bottles, HDPE containers.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹14 – ₹22 <small>/ kg</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Plastics & Bottles">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 6: E-Waste & Computers -->
+          <div class="category-card" data-cat="ewaste">
+            <div class="category-badge">Certified Recycled</div>
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">💻</span>
+            </div>
+            <h3 class="cat-title">E-Waste & IT Gear</h3>
+            <p class="cat-items">CPUs, laptops, motherboards, servers, monitors, printers, chargers.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹40 – ₹350 <small>/ pc</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="E-Waste & IT Gear">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 7: Home Appliances -->
+          <div class="category-card" data-cat="ewaste">
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">🧊</span>
+            </div>
+            <h3 class="cat-title">Large Appliances</h3>
+            <p class="cat-items">Old ACs (split/window), refrigerators, washing machines, microwaves.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹800 – ₹4,500 <small>/ pc</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Large Appliances">Book Pickup &rarr;</a>
+          </div>
+
+          <!-- Card 8: Lead Batteries & Inverters -->
+          <div class="category-card" data-cat="ewaste">
+            <div class="category-badge hot">High Payout</div>
+            <div class="category-icon-wrap">
+              <span class="cat-emoji">🔋</span>
+            </div>
+            <h3 class="cat-title">Old Batteries</h3>
+            <p class="cat-items">Inverter batteries, car & bike lead-acid batteries, UPS units.</p>
+            <div class="cat-pricing">
+              <span class="price-lbl">Starting from</span>
+              <span class="price-val">₹75 – ₹92 <small>/ kg</small></span>
+            </div>
+            <a href="#book" class="cat-action-link" data-item="Old Batteries">Book Pickup &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE SCRAP RATES SECTION (Desktop: Table + Search, Mobile: Stacked Rate Cards) -->
+    <section class="section rates-section" id="rates">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">TRANSPARENT PRICING</div>
+          <h2 class="section-title">Live <span class="gradient-text">Scrap Price List</span> Today</h2>
+          <p class="section-subtitle">Updated daily according to global recycling and Mandi indices. No deductions or unannounced cuts.</p>
+          <div class="rates-timestamp">
+            <span class="dot-live"></span> Last Updated: <strong id="rate-date">Today, 09:00 AM IST</strong>
+          </div>
+        </div>
+
+        <!-- Rate Search & Filter Toolbar -->
+        <div class="rates-toolbar">
+          <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" id="rate-search-input" placeholder="Search scrap item (e.g., Copper, AC, Newspaper, Battery)..." aria-label="Search scrap rate">
+          </div>
+          <div class="rate-cat-tabs" role="tablist">
+            <button type="button" class="rate-tab active" data-tab="all">All (20+)</button>
+            <button type="button" class="rate-tab" data-tab="paper">Paper</button>
+            <button type="button" class="rate-tab" data-tab="metal">Metals</button>
+            <button type="button" class="rate-tab" data-tab="appliance">Appliances</button>
+            <button type="button" class="rate-tab" data-tab="plastic">Plastic & Glass</button>
+          </div>
+        </div>
+
+        <!-- Desktop Rate Table Layout (Accessible & Responsive) -->
+        <div class="rates-table-wrapper">
+          <table class="rates-table" id="rates-table">
+            <thead>
+              <tr>
+                <th scope="col">Scrap Item</th>
+                <th scope="col">Category</th>
+                <th scope="col">Condition / Type</th>
+                <th scope="col">Indicative Rate</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="rates-tbody">
+              <!-- Dynamically populated via JavaScript for high interactivity & instant search -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Mobile Stacked Rate Cards (Rendered automatically for mobile screens) -->
+        <div class="mobile-rate-cards" id="mobile-rate-cards" aria-live="polite">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Rates Note & Guarantee -->
+        <div class="rates-footer-note">
+          <div class="note-icon">ℹ️</div>
+          <div class="note-text">
+            <strong>Weight Guarantee:</strong> Minimum pickup threshold is 20 kg for mixed household scrap. Free pickup service with zero convenience fees. Bulk commercial rates are negotiable upon site inspection.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION (Desktop: 4-step horizontal line, Tablet: 2x2, Mobile: Vertical timeline) -->
+    <section class="section how-it-works-section" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">SIMPLE 4-STEP PROCESS</div>
+          <h2 class="section-title">How Doorstep <span class="gradient-text">Pickup Works</span></h2>
+          <p class="section-subtitle">From booking to instant money transfer in under 2 hours. Seamless, professional, and reliable.</p>
+        </div>
+
+        <div class="steps-container">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-badge-num">01</div>
+            <div class="step-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <h3 class="step-title">1. Schedule Pickup</h3>
+            <p class="step-description">Choose your preferred date, 2-hour time window, and approximate scrap items online or via WhatsApp.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-badge-num">02</div>
+            <div class="step-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="step-title">2. Doorstep Arrival</h3>
+            <p class="step-description">Our verified, uniformed executives arrive on time with commercial-grade portable digital weighing scales.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-badge-num">03</div>
+            <div class="step-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m21 16-4 4-4-4"/>
+                <path d="M17 20V4"/>
+                <path d="m3 8 4-4 4 4"/>
+                <path d="M7 4v16"/>
+              </svg>
+            </div>
+            <h3 class="step-title">3. Accurate Weighing</h3>
+            <p class="step-description">Every item is sorted and weighed directly in front of your eyes. Digital readings are clear and transparent.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-badge-num">04</div>
+            <div class="step-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="step-title">4. Instant Payment</h3>
+            <p class="step-description">Receive immediate UPI payment (GPay/PhonePe/Paytm) or cash on the spot before we load the scrap into our eco-van.</p>
+          </div>
+        </div>
+
+        <div class="steps-cta-center text-center">
+          <a href="#book" class="btn-primary btn-large">
+            <span>Schedule Your Free Pickup Now</span>
+            <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING FORM SECTION (The Star Component - Desktop 2-Col, Mobile 1-Col Step Wizard) -->
+    <section class="section booking-section" id="book">
+      <div class="container">
+        <div class="booking-grid">
+          <!-- Left Column: The Interactive Booking Form Wizard -->
+          <div class="booking-form-card">
+            <div class="form-header">
+              <div class="form-eyebrow">BOOK IN 60 SECONDS</div>
+              <h2 class="form-title">Schedule Doorstep Pickup</h2>
+              <p class="form-subtitle">Fill in your details for a guaranteed free pickup slot.</p>
+            </div>
+
+            <!-- Form Step Progress Tracker -->
+            <div class="step-progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="3">
+              <div class="prog-step active" id="prog-1">
+                <span class="prog-num">1</span>
+                <span class="prog-lbl">Scrap Type</span>
+              </div>
+              <div class="prog-line" id="prog-line-1"></div>
+              <div class="prog-step" id="prog-2">
+                <span class="prog-num">2</span>
+                <span class="prog-lbl">Slot & Address</span>
+              </div>
+              <div class="prog-line" id="prog-line-2"></div>
+              <div class="prog-step" id="prog-3">
+                <span class="prog-num">3</span>
+                <span class="prog-lbl">Confirm</span>
+              </div>
+            </div>
+
+            <form id="pickup-form" novalidate>
+              <!-- STEP 1: Scrap Type & Estimated Quantity -->
+              <div class="form-step-panel active" id="step-panel-1">
+                <h3 class="panel-heading">Select Scrap Categories:</h3>
+                <p class="panel-subtext">Choose all items you want us to collect (multi-select):</p>
+                
+                <div class="scrap-chips-grid">
+                  <label class="scrap-chip">
+                    <input type="checkbox" name="scrap_type" value="Newspaper & Books" checked>
+                    <div class="chip-content">
+                      <span class="chip-icon">📰</span>
+                      <span class="chip-title">Newspaper / Books</span>
+                      <span class="chip-price">₹16/kg</span>
+                    </div>
+                  </label>
+
+                  <label class="scrap-chip">
+                    <input type="checkbox" name="scrap_type" value="Cardboard (Gatta)" checked>
+                    <div class="chip-content">
+                      <span class="chip-icon">📦</span>
+                      <span class="chip-title">Cardboard / Boxes</span>
+                      <span class="chip-price">₹14/kg</span>
+                    </div>
+                  </label>
+
+                  <label class="scrap-chip">
+                    <input type="checkbox" name="scrap_type" value="Iron & Metals">
+                    <div class="chip-content">
+                      <span class="chip-icon">🔩</span>
+                      <span class="chip-title">Iron & Steel</span>
+                      <span class="chip-price">₹32/kg</span>
+                    </div>
+                  </label>
+
+                  <label class="scrap-chip">
+                    <input type="checkbox" name="scrap_type" value="Copper & Brass">
+                    <div class="chip-content">
+                      <span class="chip-icon">🪙</span>
+                      <span class="chip-title">Copper / Brass</span>
+                      <span class="chip-price">₹460/kg</span>
+                    </div>
+                  </label>
+
+                  <label class="scrap-chip">
+                    <input type="checkbox" name="scrap_type" value="Plastic Scrap">
+                    <div class="chip-content">
+                      <span class="chip-icon">🧴</span>
+                      <span class="chip-title">Plastics</span>
+                      <span class="chip-price">₹18/kg</span>
+                    </div>
+                  </label>
+
+                  <label class="scrap-chip">
+                    <input type="checkbox" name="scrap_type" value="E-Waste & Appliances">
+                    <div class="chip-content">
+                      <span class="chip-icon">💻</span>
+                      <span class="chip-title">E-Waste / AC / Fridge</span>
+                      <span class="chip-price">High Value</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="form-group mt-4">
+                  <label for="approx-weight" class="form-label">Approximate Total Weight:</label>
+                  <select id="approx-weight" class="form-control" required>
+                    <option value="20-50 kg" selected>20 to 50 kg (Standard Household)</option>
+                    <option value="50-100 kg">50 to 100 kg (Large Household / Moving)</option>
+                    <option value="100-250 kg">100 to 250 kg (Society / Renovation)</option>
+                    <option value="250+ kg (Commercial)">250+ kg (Commercial / Bulk Industrial)</option>
+                    <option value="Under 20 kg">Under 20 kg (Combined with Society)</option>
+                  </select>
+                </div>
+
+                <div class="form-step-actions">
+                  <button type="button" class="btn-primary btn-next" id="btn-to-step-2">
+                    <span>Continue to Address & Slot</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 2: Address, City, Date & Time Slot -->
+              <div class="form-step-panel" id="step-panel-2">
+                <h3 class="panel-heading">Pickup Location & Preferred Slot</h3>
+
+                <div class="form-row">
+                  <div class="form-group col-6">
+                    <label for="pickup-city" class="form-label">City *</label>
+                    <select id="pickup-city" class="form-control" required>
+                      <option value="Delhi NCR">Delhi NCR</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Bengaluru" selected>Bengaluru</option>
+                      <option value="Hyderabad">Hyderabad</option>
+                      <option value="Pune">Pune</option>
+                      <option value="Chennai">Chennai</option>
+                      <option value="Kolkata">Kolkata</option>
+                      <option value="Ahmedabad">Ahmedabad</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="pickup-pincode" class="form-label">Pincode *</label>
+                    <input type="text" id="pickup-pincode" class="form-control" placeholder="e.g. 560001" maxlength="6" inputmode="numeric" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="pickup-address" class="form-label">Complete Street Address / House / Society *</label>
+                  <input type="text" id="pickup-address" class="form-control" placeholder="Flat No., Building Name, Street, Landmark" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-6">
+                    <label for="pickup-date" class="form-label">Preferred Date *</label>
+                    <input type="date" id="pickup-date" class="form-control" required>
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="pickup-slot" class="form-label">Time Slot *</label>
+                    <select id="pickup-slot" class="form-control" required>
+                      <option value="Morning (09:00 AM - 12:00 PM)" selected>09:00 AM – 12:00 PM</option>
+                      <option value="Afternoon (12:00 PM - 03:00 PM)">12:00 PM – 03:00 PM</option>
+                      <option value="Evening (03:00 PM - 07:00 PM)">03:00 PM – 07:00 PM</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-step-actions dual-actions">
+                  <button type="button" class="btn-secondary btn-prev" id="btn-back-to-1">&larr; Back</button>
+                  <button type="button" class="btn-primary btn-next" id="btn-to-step-3">
+                    <span>Next: Contact Details</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 3: Contact Details & Submit -->
+              <div class="form-step-panel" id="step-panel-3">
+                <h3 class="panel-heading">Contact & Instant Payout Info</h3>
+
+                <div class="form-group">
+                  <label for="user-name" class="form-label">Full Name *</label>
+                  <input type="text" id="user-name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-6">
+                    <label for="user-phone" class="form-label">Phone Number *</label>
+                    <div class="input-with-prefix">
+                      <span class="prefix">+91</span>
+                      <input type="tel" id="user-phone" class="form-control" placeholder="9876543210" maxlength="10" inputmode="tel" required>
+                    </div>
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="payout-method" class="form-label">Preferred Payout</label>
+                    <select id="payout-method" class="form-control">
+                      <option value="UPI (GPay / PhonePe / Paytm)" selected>UPI (GPay/PhonePe/Paytm)</option>
+                      <option value="Cash on Spot">Cash on Spot</option>
+                      <option value="Direct Bank Account Transfer">Direct Bank Transfer</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="pickup-notes" class="form-label">Special Instructions / Landmarks (Optional)</label>
+                  <textarea id="pickup-notes" class="form-control textarea" rows="2" placeholder="e.g. Lift available on 3rd floor, call before reaching..."></textarea>
+                </div>
+
+                <div class="form-checkbox-wrap">
+                  <label class="checkbox-label">
+                    <input type="checkbox" id="whatsapp-updates" checked>
+                    <span>Receive booking confirmation & pickup agent live tracking via WhatsApp</span>
+                  </label>
+                </div>
+
+                <div class="form-step-actions dual-actions">
+                  <button type="button" class="btn-secondary btn-prev" id="btn-back-to-2">&larr; Back</button>
+                  <button type="submit" class="btn-primary btn-submit-final" id="btn-submit-booking">
+                    <span>Confirm & Book Pickup</span>
+                    <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Right Column: Live Booking Summary & Trust Highlights -->
+          <div class="booking-summary-sidebar">
+            <div class="summary-card">
+              <h3 class="summary-card-title">
+                <span class="sum-icon">📋</span> Pickup Guarantee
+              </h3>
+              
+              <ul class="summary-perks-list">
+                <li>
+                  <span class="perk-check">✓</span>
+                  <div>
+                    <strong>100% Free Doorstep Pickup</strong>
+                    <span>No visit fees or handling charges</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="perk-check">✓</span>
+                  <div>
+                    <strong>Exact Digital Scale Weighing</strong>
+                    <span>Zero cheating, transparent readings</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="perk-check">✓</span>
+                  <div>
+                    <strong>Instant Cash / UPI Transfer</strong>
+                    <span>Paid in seconds right in front of you</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="perk-check">✓</span>
+                  <div>
+                    <strong>ISO Certified Recycler</strong>
+                    <span>Eco-friendly scientific recycling</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- Live Selected Summary Dynamic Box -->
+              <div class="live-selection-summary">
+                <h4 class="live-sum-title">Your Selected Items</h4>
+                <div class="live-selected-chips" id="summary-selected-chips">
+                  <span class="mini-chip">Newspaper & Books</span>
+                  <span class="mini-chip">Cardboard (Gatta)</span>
+                </div>
+                <div class="live-sum-row">
+                  <span>Weight Est.:</span>
+                  <strong id="summary-weight-display">20 to 50 kg</strong>
+                </div>
+                <div class="live-sum-row">
+                  <span>Slot:</span>
+                  <strong id="summary-slot-display">Tomorrow, Morning</strong>
+                </div>
+              </div>
+
+              <!-- Direct WhatsApp Quick Booking Alternative -->
+              <div class="quick-wa-box">
+                <p class="quick-wa-text">Prefer booking directly over chat?</p>
+                <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20would%20like%20to%20schedule%20a%20scrap%20pickup%20at%20my%20address." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-block">
+                  <svg class="icon-wa" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                  </svg>
+                  <span>WhatsApp Booking Desk</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- B2B & COMMERCIAL SCRAP SECTION (Desktop: 2-Col, Mobile: Stacked) -->
+    <section class="section business-section" id="business">
+      <div class="container">
+        <div class="business-container-box">
+          <div class="business-content">
+            <div class="section-eyebrow">ENTERPRISE & COMMERCIAL</div>
+            <h2 class="business-title">Bulk Scrap Solutions for <span class="gradient-text">Offices, Factories & Societies</span></h2>
+            <p class="business-desc">
+              We provide end-to-end corporate scrap management, official GST invoices, Green Recycling Certificates, certified data destruction, and dedicated account managers.
+            </p>
+
+            <div class="business-perks-grid">
+              <div class="biz-perk">
+                <span class="biz-icon">📄</span>
+                <div>
+                  <strong>GST Invoicing & EPR</strong>
+                  <p>100% compliant documentation for audits and taxation.</p>
+                </div>
+              </div>
+              <div class="biz-perk">
+                <span class="biz-icon">🔒</span>
+                <div>
+                  <strong>Data Destruction Certificate</strong>
+                  <p>Certified shredding for hard drives, servers & confidential files.</p>
+                </div>
+              </div>
+              <div class="biz-perk">
+                <span class="biz-icon">🚛</span>
+                <div>
+                  <strong>Fleet & Forklift Handling</strong>
+                  <p>Heavy hydraulic weighing and multi-ton vehicle logistics.</p>
+                </div>
+              </div>
+              <div class="biz-perk">
+                <span class="biz-icon">🏆</span>
+                <div>
+                  <strong>Green Certificate</strong>
+                  <p>Official ESG compliance and carbon reduction credit reports.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="business-cta-row">
+              <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20am%20looking%20for%20a%20B2B%20Commercial%20Scrap%20Pickup%20quote" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                <span>Request B2B Corporate Quote</span>
+                <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="tel:+919876543210" class="btn-secondary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call Business Desk</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="business-stats-visual">
+            <div class="biz-stat-card card-glass">
+              <div class="stat-highlight-number">12,500+</div>
+              <div class="stat-highlight-label">Tons Recycled Responsible This Year</div>
+            </div>
+            <div class="biz-stat-card card-glass">
+              <div class="stat-highlight-number">850+</div>
+              <div class="stat-highlight-label">Corporate Clients & Tech Parks</div>
+            </div>
+            <div class="biz-stat-card card-glass">
+              <div class="stat-highlight-number">100%</div>
+              <div class="stat-highlight-label">Zero-Landfill Commitment</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUSTAINABILITY & CIRCULAR ECONOMY (Mobile Vertical Flow, Desktop Expansive Flow) -->
+    <section class="section sustainability-section" id="sustainability">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">CIRCULAR ECONOMY IN ACTION</div>
+          <h2 class="section-title">Your Scrap Prevents <span class="gradient-text">Landfill Pollution</span></h2>
+          <p class="section-subtitle">Every kilogram of scrap collected is scientifically segregated and diverted into authorized green smelting & recycling mills.</p>
+        </div>
+
+        <!-- Sustainability Circular Flow (Responsive horizontal -> vertical) -->
+        <div class="eco-flow-container">
+          <div class="flow-step">
+            <div class="flow-step-icon">🚛</div>
+            <span class="flow-step-name">1. COLLECT</span>
+            <p class="flow-step-desc">Doorstep pickup with zero carbon route-optimization.</p>
+          </div>
+          <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+          <div class="flow-step">
+            <div class="flow-step-icon">🔬</div>
+            <span class="flow-step-name">2. SORT</span>
+            <p class="flow-step-desc">AI & optical grade sorting into 40+ raw material grades.</p>
+          </div>
+          <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+          <div class="flow-step">
+            <div class="flow-step-icon">⚙️</div>
+            <span class="flow-step-name">3. PROCESS</span>
+            <p class="flow-step-desc">Baling, shredding, and decontamination processing.</p>
+          </div>
+          <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+          <div class="flow-step">
+            <div class="flow-step-icon">♻️</div>
+            <span class="flow-step-name">4. RECYCLE</span>
+            <p class="flow-step-desc">Smelted into certified secondary metal ingots & recycled paper.</p>
+          </div>
+          <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+          <div class="flow-step">
+            <div class="flow-step-icon">🌱</div>
+            <span class="flow-step-name">5. REUSE</span>
+            <p class="flow-step-desc">Transformed into brand new consumer goods & packaging.</p>
+          </div>
+        </div>
+
+        <!-- Impact Counters -->
+        <div class="impact-metrics-grid">
+          <div class="impact-card">
+            <div class="impact-icon">🌳</div>
+            <div class="impact-num">142,800+</div>
+            <div class="impact-lbl">Trees Saved from Logging</div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">💧</div>
+            <div class="impact-num">8.4 Million</div>
+            <div class="impact-lbl">Liters Water Conserved</div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">⚡</div>
+            <div class="impact-num">4.2 GWh</div>
+            <div class="impact-lbl">Energy Saved via Recycling</div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🛡️</div>
+            <div class="impact-num">9,200 Tons</div>
+            <div class="impact-lbl">CO₂ Carbon Emissions Avoided</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION (Desktop: 3 cards, Tablet: 2 cards, Mobile: 1 card swipe/carousel) -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">VERIFIED REVIEWS</div>
+          <h2 class="section-title">What Our <span class="gradient-text">Customers Say</span></h2>
+          <p class="section-subtitle">Real experiences from homeowners, housing societies, and business managers.</p>
+        </div>
+
+        <div class="testimonials-slider-wrapper">
+          <div class="testimonials-track" id="testimonials-track">
+            <!-- Review 1 -->
+            <div class="testimonial-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-body">
+                "Super prompt service! The team arrived within 45 minutes of booking with an electronic scale. Sold 45 kg old books and cartons, got ₹780 transferred to PhonePe immediately."
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">RK</div>
+                <div class="reviewer-details">
+                  <strong>Rajesh Kumar</strong>
+                  <span>HSR Layout, Bengaluru • Homeowner</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testimonial-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-body">
+                "We had 3 old window ACs and lots of iron scrap from home renovation. Other local scrap dealers were quoting lowball prices. EcoScrap paid fair market rates and handled heavy lifting!"
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">PS</div>
+                <div class="reviewer-details">
+                  <strong>Priya Sharma</strong>
+                  <span>Andheri West, Mumbai • Residential</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testimonial-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-body">
+                "Scheduled bulk e-waste & obsolete servers pickup for our startup office. Provided complete data destruction certificate and GST invoice within 24 hours. Highly recommended for corporate!"
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">AM</div>
+                <div class="reviewer-details">
+                  <strong>Arun Menon</strong>
+                  <span>Cyber City, Gurugram • IT Operations</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="testimonial-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-body">
+                "Extremely polite executive with clean uniform and digital weighing scale. No rounding down or tricks. Paid instantly via Google Pay. Will use every month!"
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">SN</div>
+                <div class="reviewer-details">
+                  <strong>Sneha Nair</strong>
+                  <span>Kothrud, Pune • Apartment Resident</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Slider Controls (Arrows & Pagination Dots) -->
+          <div class="slider-controls">
+            <button type="button" class="slider-arrow prev" id="slider-prev" aria-label="Previous Testimonials">&larr;</button>
+            <div class="slider-dots" id="slider-dots">
+              <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+              <button class="dot" data-index="1" aria-label="Slide 2"></button>
+            </div>
+            <button type="button" class="slider-arrow next" id="slider-next" aria-label="Next Testimonials">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION (Full Width Accessible Accordion) -->
+    <section class="section faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">FREQUENTLY ASKED QUESTIONS</div>
+          <h2 class="section-title">Everything You Need <span class="gradient-text">To Know</span></h2>
+          <p class="section-subtitle">Clear answers about pickup charges, weighing transparency, payment methods, and accepted scrap.</p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Is scrap pickup really 100% free? Are there any hidden charges?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! Our doorstep pickup service is completely free. We do not charge any visit fees, handling fees, or lifting charges. You get the full rate for your weighed scrap.</p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How do you guarantee accurate weight?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Our pickup executives carry certified digital scale machines that are calibrated and certified weekly. All items are weighed directly in front of you with clear LED digital readouts.</p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>What is the minimum quantity of scrap required for a pickup?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>For household scrap, our minimum recommended weight threshold is 20 kg (which can be a combination of newspapers, cardboard, old clothes, plastic, and iron). For large appliances like ACs, refrigerators, or washing machines, single item pickup is available.</p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How and when will I get paid for my scrap?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>You are paid immediately on the spot before our executive leaves your premises. You can choose instant UPI (Google Pay, PhonePe, Paytm), cash in hand, or direct IMPS bank transfer.</p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Which cities and areas do you currently serve?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>We actively serve all major metro cities including Delhi NCR (Noida, Gurugram, Ghaziabad, Faridabad), Mumbai, Bengaluru, Hyderabad, Pune, Chennai, Kolkata, and Ahmedabad, covering 1,200+ pincodes.</p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Do you provide GST bills and EPR certificates for corporate scrap?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, for B2B, tech parks, societies, and industrial pickups, we provide official GST invoices, Green Recycling Certificates, and certified Data Destruction Certificates for electronic media.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CALL TO ACTION BANNER -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-card">
+          <div class="cta-banner-content">
+            <h2 class="cta-banner-title">Ready to Turn Your Clutter Into Instant Cash?</h2>
+            <p class="cta-banner-desc">Book in 60 seconds. Our verified executive will arrive with a digital scale at your preferred time.</p>
+            <div class="cta-banner-buttons">
+              <a href="#book" class="btn-primary btn-large">
+                <span>Book Free Pickup Now</span>
+                <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20want%20to%20book%20a%20scrap%20pickup" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta">
+                <svg class="icon-wa" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+                <span>WhatsApp: +91 98765 43210</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RICH RESPONSIVE FOOTER (Desktop: 4-Col, Tablet: 2-Col, Mobile: Stacked) -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <!-- Col 1: Brand & Mission -->
+      <div class="footer-col footer-about">
+        <a href="#hero" class="brand-logo footer-logo">
+          <div class="logo-icon-wrap">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/>
+              <path d="M11 19h8.2a1.8 1.8 0 0 0 1.58-.9 1.79 1.79 0 0 0-.02-1.78L17.2 9.5"/>
+              <path d="m14 2-5 7h10l-5-7Z"/>
+              <circle cx="12" cy="15" r="2.5"/>
+            </svg>
+          </div>
+          <span class="brand-name">Eco<span class="highlight">Scrap</span></span>
+        </a>
+        <p class="footer-desc">
+          Transforming India's recycling economy through technology, accurate digital weighing, and fair doorstep payouts for homes, societies, and enterprises.
+        </p>
+        <div class="footer-certifications">
+          <span class="cert-pill">✓ ISO 9001:2015</span>
+          <span class="cert-pill">✓ CPCB Authorized Recycler</span>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#rates">Today's Scrap Rates</a></li>
+          <li><a href="#categories">What We Collect</a></li>
+          <li><a href="#book">Book Doorstep Pickup</a></li>
+          <li><a href="#business">Corporate & B2B Solutions</a></li>
+          <li><a href="#sustainability">Circular Impact</a></li>
+          <li><a href="#faq">Frequently Asked Questions</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Scrap Categories -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Scrap Categories</h4>
+        <ul class="footer-links">
+          <li><a href="#categories">Old Newspapers & Office Paper</a></li>
+          <li><a href="#categories">Corrugated Cardboard & Cartons</a></li>
+          <li><a href="#categories">Iron, Steel & Heavy Metal</a></li>
+          <li><a href="#categories">Copper Wires & Brass Alloy</a></li>
+          <li><a href="#categories">E-Waste, Laptops & CPUs</a></li>
+          <li><a href="#categories">Air Conditioners & Fridges</a></li>
+          <li><a href="#categories">Inverter & Car Batteries</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Contact & Support (High tap targets for mobile) -->
+      <div class="footer-col footer-contact">
+        <h4 class="footer-col-title">Get In Touch</h4>
+        <ul class="contact-list">
+          <li>
+            <a href="tel:+919876543210" class="contact-link">
+              <span class="contact-icon">📞</span>
+              <div>
+                <span class="contact-label">Call Helpline</span>
+                <strong class="contact-val">+91 98765 43210</strong>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/919876543210?text=Hi%20EcoScrap" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-icon">💬</span>
+              <div>
+                <span class="contact-label">WhatsApp Support</span>
+                <strong class="contact-val">+91 98765 43210</strong>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:support@ecoscrap.in" class="contact-link">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <span class="contact-label">Email Inquiries</span>
+                <strong class="contact-val">support@ecoscrap.in</strong>
+              </div>
+            </a>
+          </li>
+          <li>
+            <div class="contact-location">
+              <span class="contact-icon">📍</span>
+              <div>
+                <span class="contact-label">Operating Hours</span>
+                <span class="contact-val">Mon – Sun: 8:00 AM – 8:00 PM</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sub Footer -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 EcoScrap Technologies India Pvt Ltd. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">E-Waste Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY ACTION BAR (Visible on Mobile Only, with Safe-Area Inset) -->
+  <aside class="mobile-sticky-bar" id="mobile-sticky-bar" aria-label="Mobile Quick Actions">
+    <div class="sticky-bar-content">
+      <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20want%20to%20book%20a%20scrap%20pickup" target="_blank" rel="noopener noreferrer" class="btn-sticky-wa" aria-label="WhatsApp Us">
+        <svg class="icon-wa" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+      <a href="#book" class="btn-sticky-book" id="mobile-sticky-book-btn">
+        <span>BOOK A PICKUP</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </aside>
+
+  <!-- FLOATING WHATSAPP BUTTON (Positioned Safely Above Mobile Sticky Bar) -->
+  <a href="https://wa.me/919876543210?text=Hi%20EcoScrap,%20I%20have%20a%20question%20about%20scrap%20rates" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" id="floating-whatsapp" aria-label="Chat with us on WhatsApp">
+    <div class="floating-wa-pulse"></div>
+    <svg class="icon-wa" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+    </svg>
+    <span class="floating-wa-label">Quick Chat</span>
+  </a>
+
+  <!-- BOOKING SUCCESS MODAL -->
+  <div class="booking-modal-overlay" id="success-modal" aria-hidden="true">
+    <div class="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-success-icon">🎉</div>
+      <h3 class="modal-title" id="modal-title">Pickup Confirmed Successfully!</h3>
+      <p class="modal-booking-id">Booking Ref: <strong id="modal-ref-id">#ES-98421</strong></p>
+      
+      <div class="modal-details-box">
+        <div class="modal-row">
+          <span>Customer:</span>
+          <strong id="modal-name">-</strong>
+        </div>
+        <div class="modal-row">
+          <span>Pickup Slot:</span>
+          <strong id="modal-slot">-</strong>
+        </div>
+        <div class="modal-row">
+          <span>City & Address:</span>
+          <strong id="modal-address">-</strong>
+        </div>
+        <div class="modal-row">
+          <span>Selected Scrap:</span>
+          <strong id="modal-scraps">-</strong>
+        </div>
+        <div class="modal-row highlight-row">
+          <span>Estimated Payout:</span>
+          <strong id="modal-payout">₹450 - ₹1,200</strong>
+        </div>
+      </div>
+
+      <p class="modal-note">
+        Our verified pickup agent will call you 30 minutes before arrival. You will receive live WhatsApp updates.
+      </p>
+
+      <div class="modal-actions">
+        <a href="#" id="modal-wa-share" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-full">
+          <span>Open Booking in WhatsApp</span>
+        </a>
+        <button type="button" class="btn-secondary btn-block" id="modal-close-btn">
+          <span>Close & Return to Site</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
